@@ -77,3 +77,29 @@
 .clear{
     clear:both
 }
+.div_span{
+    border: solid 1px red;
+    margin: 30px;
+    background: blue;
+}
+.sp1{
+    border: solid 1px red;
+    margin: 50px;
+    background: blue;
+}
+.sp2{
+    border: solid 1px red;
+    margin: 50px;
+    background: blue;
+}
+.sp3{
+    border: solid 1px red;
+    margin: 50px;
+    background: blue;
+}
+.d_display{
+    display: inline;
+}
+.d_dispaly1{
+    display: none;
+}
