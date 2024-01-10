@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Học lập trình</title>
+</head>
+<body>
+    
+    <form>
+        <fieldset> <!--nhóm các ô input có liên quan đi kèm với thẻ legend-->
+            <legend>Thông tin</legend>
+            Name:<input type="text" ><br>
+            Email:<input type="text">
+        </fieldset>
+    </form>
+        
+    <form>
+        <fieldset>
+            <legend>Thong tin khach hang</legend>
+            <label for="name" >Name:</label>
+            <input type="text" name="name" id="name" ><br>
+            Email:<input type="text" name="email" ><br>
+            Địa chỉ:<input type="text" name="address" ><br>
+        </fieldset>
+        <fieldset disabled>
+            <legend>Thông tin cửa hàng</legend>
+            Tên:<input type="text" name="name" ><br>
+            Địa chỉ:<input type="text" name="address" ><br>
+        </fieldset>
+        <fieldset disabled="disabled">
+            <legend>Thông tin cố định</legend><br />
+            TimeStamp:<input type="text" name="time"><br />
+            Country:<input type="text" name="country"><br />
+        </fieldset>
+    </form>
+</body>
+</html>
