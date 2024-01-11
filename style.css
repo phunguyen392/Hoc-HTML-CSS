@@ -97,9 +97,43 @@
     margin: 50px;
     background: blue;
 }
-.d_display{
-    display: inline;
+.sp4{
+    border: solid 1px red;
+    margin: 50px;
+    background: blue;
 }
-.d_dispaly1{
-    display: none;
+
+.d_pl{
+    display: inline;
+    background: #0000ff;
+    margin: 50px;
+}
+.d_margin{
+    background: blue;
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+}
+#dm2{
+    margin-left: 100px;
+}
+.d_box{
+    text-align: center;
+}
+.dbox_margin{
+    background: blue;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.dbox_border{
+    background: red;
+}
+.dbox_padding{
+    background: green;
+}
+.button{
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    border-radius: 5%;
 }
